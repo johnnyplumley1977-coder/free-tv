@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Johnny's Free TV</title>
+
+  <style>
+    body {
+      background: #10131a;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 25px;
+    }
+
+    h1 {
+      color: #4db8ff;
+    }
+
+    .button {
+      display: block;
+      max-width: 350px;
+      margin: 18px auto;
+      padding: 18px;
+      background: #1677ff;
+      color: white;
+      text-decoration: none;
+      border-radius: 12px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .button:hover {
+      background: #005dc7;
+    }
+
+    p {
+      color: #cccccc;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Johnny's Free TV</h1>
+  <p>Choose a legal free streaming service:</p>
+
+  <a class="button" href="https://pluto.tv/" target="_blank">Watch Pluto TV</a>
+  <a class="button" href="https://tubitv.com/" target="_blank">Watch Tubi</a>
+  <a class="button" href="https://watch.plex.tv/" target="_blank">Watch Plex</a>
+  <a class="button" href="https://therokuchannel.roku.com/" target="_blank">The Roku Channel</a>
+  <a class="button" href="https://www.pbs.org/livestream/" target="_blank">Watch PBS</a>
+
+  <p>Free, legal, and supported by advertisements.</p>
+</body>
+</html>
